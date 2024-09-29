@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left; /* Alineación a la izquierda */
+}
+
+.proyecto {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.proyecto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.contenido-proyecto {
+    display: flex; /* Utiliza flexbox para alinear la imagen y el texto */
+    align-items: center; /* Centra verticalmente */
+}
+
+.contenido-proyecto p {
+    flex: 1; /* Permite que el texto ocupe el espacio restante */
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.imagen-proyecto {
+    max-width: 150px; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+body {
+    background-image: url('img4.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
